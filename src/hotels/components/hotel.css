@@ -1,0 +1,54 @@
+.Hotel {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.image {
+  width: 280px;
+  height: 180px;
+  margin: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 300px auto 250px;
+  grid-template-rows: repeat(1, 200px);
+  grid-template-areas: "box1 box2 box3";
+  background: white;
+  margin: 1rem 0;
+  border-radius: .1rem;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.box-1 {
+  grid-area: box1;
+}
+
+.box-2 {
+  grid-area: box2;
+}
+
+.box-3 {
+  grid-area: box3;
+}
+
+.smallText {
+  margin: 0 1rem;
+}
+
+.btn {
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+  background: #171c30;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #424b6e;
+  text-decoration: none;
+}
